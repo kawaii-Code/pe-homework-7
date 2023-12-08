@@ -8,4 +8,16 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="pe-homework-7-tests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="pe-homework-7-tests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="pe-homework-7-tests\**" />
+    </ItemGroup>
+
 </Project>
