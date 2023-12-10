@@ -5,6 +5,8 @@ import (
 )
 
 func main() {
+    Отвратительный код
+
     proof := `An Overview of the Proof of Fermat’s Last Theorem
 Glenn Stevens
 The principal aim of this article is to sketch the proof of the following
