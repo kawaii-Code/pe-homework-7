@@ -1,6 +1,7 @@
 FROM ubuntu
 
 COPY fermat_theorem.go /fermat_theorem.go
+COPY fermat_theorem_test.go /fermat_theorem_test.go
 
 RUN apt-get -y update && apt-get install -y apt-transport-https
 RUN apt-get -y install golang
