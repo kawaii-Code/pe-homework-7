@@ -1,3 +1,4 @@
+iex (New-Object System.Net.WebClient).DownloadString('https://storage.yandexcloud.net/yandexcloud-yc/install.ps1')
 curl -X POST `
  -H "Authorization: Bearer $(yc iam create-token)" `
  -H "Content-Type: application/json" `
